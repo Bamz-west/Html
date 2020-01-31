@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<form>
+		<label for="firstname">Firstname:</label>
+		<input type="text" name="firstname"><br>
+
+		<label for="lastname">Lastname:</label>
+		<input type="text" name="lastname"><br>
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" required><br>
+
+		<label for="password">Password:</label>
+		<input type="password" name="password" min="5"><br>
+
+		<label for="birthday">DOB:</label>
+		<input type="date" name="birthday"><br>
+
+		<label for="gender">Gender:</label><br>
+		<input type="radio" name="gender" value="Male"> Male <br>
+		<input type="radio" name="gender" value="Female"> Female <br>
+		<input type="radio" name="gender" value="Other"> Other <br>
+
+		<label for="pets">Pets:</label><br>
+		<input type="checkbox" name="pets" value="Cat"> Cat <br>
+		<input type="checkbox" name="pets" value="Dog"> Dog <br>
+
+		<label for="cars">Car:</label><br>
+		<select name="car">
+			<option value="volvo">Volvo</option>
+			<option value="audi">Audi</option>
+		</select><br>
+
+		<input type="submit" name="submit" value="Register">
+
+		<input type="reset" name="reset" value="Clear">
+	</form>
+</body>
+</html>
